@@ -38,21 +38,21 @@ body {
   transition: 0.3s;
   cursor: pointer;
 }
-.start-button {
+.Start {
   background-color: hsl(110, 90%, 50%);
 }
-.start-button:hover {
+.Start:hover {
   background-color: hsl(110, 90%, 35%);
 }
-.stop-button {
+.Stop {
   background-color: hsl(0, 85%, 60%);
 }
-.stop-button:hover {
+.Stop:hover {
   background-color: hsl(0, 85%, 45%);
 }
-.reset-button {
+.Reset {
   background-color: hsl(236, 89%, 65%);
 }
-.reset-button:hover {
+.Reset:hover {
   background-color: hsl(236, 89%, 50%);
 }

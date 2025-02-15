@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef}  from 'react'
+import ButtonLists from './ButtonLists';
 
 const Stopwatch = () => {
     const [isRunning, setIsRunning]  = useState(false);
@@ -58,11 +59,11 @@ const Stopwatch = () => {
     return (
     <div className='watch-container'>
         <span>{formatTime()}</span>
-        <div className='watch-buttons'>
-            <button onClick={start} className='start-button'>Start</button>
-            <button onClick={stop} className='stop-button'>Stop</button>
-            <button onClick={reset} className='reset-button'>Reset</button>
-        </div>
+        <ButtonLists 
+            start={start}
+            stop={stop}
+            reset={reset}
+        />        
     </div>
     )
 }
